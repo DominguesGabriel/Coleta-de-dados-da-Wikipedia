@@ -9,9 +9,7 @@ URL_BASE = "https://pt.wikipedia.org"
 PAGINA_INICIAL = "/wiki/Wikip%C3%A9dia:P%C3%A1gina_principal"
 PASTA_SALVAR = "paginas_salvas"
 
-header = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-}
+header = {'User-agent': 'Mozilla/5.0'}
 
 # Cria a pasta "paginas_salvas" se ela ainda não existir
 if not os.path.isdir(PASTA_SALVAR):
